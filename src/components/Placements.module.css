@@ -1,0 +1,25 @@
+.PlacementsSection{
+    display: grid;
+    grid-template-rows: 15% 75% 10%;
+    height: 100vh;
+    text-align: center;
+}
+.PlacementsHead{
+    background-color: red;
+}
+.PlacementsBody{
+    background-color: green;
+    box-sizing: border-box;
+    /* padding: 10px; */
+    display: grid;
+    grid-template-columns: 25% 50% auto;
+    grid-gap:  0 10px;
+}
+.PlacementsBody>div{
+    position: relative;
+    background-color: yellow;
+    height: 100%;
+}
+.PlacementsFooter{
+    background-color: pink;
+}

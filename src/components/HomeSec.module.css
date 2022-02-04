@@ -1,0 +1,6 @@
+.HomeSec{
+    background: url('../rec/poster.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}

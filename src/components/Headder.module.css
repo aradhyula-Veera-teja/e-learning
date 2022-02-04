@@ -1,0 +1,71 @@
+header{
+    /* position:fixed; */
+    padding: 20px 0;
+    padding-left: 70px;
+    /* width: 100%; */
+    /* background-color: hsl(168, 34%, 41%); */
+    background-color: hsl(0, 0%, 100%);
+    min-height: 80px;
+    display: flex; 
+    box-shadow: 6px 3px 12px rgba(14, 1, 1, 0.651);
+    
+    z-index: 3;
+    /* flex-direction: start;  */
+}
+.inAndOut{
+    background-color: black;
+}
+.roundlogo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: url('../rec/logoround.jpg');
+    background-position: center;
+}
+.gec,.kits,.roundlogo{
+    background-size: cover;
+    background-position: center;
+}
+.logoHolder{
+    position: relative;
+    left: 50%;
+    transform: translateX(-60%);
+}
+.gec {
+    background: url('../rec/logonew1.jpg');
+    min-width:900px;
+    min-height: 80px;
+    background-size: cover;
+    background-position: center;
+   
+    /* color: white;
+    font-family:  'Fraunces', serif;
+    text-transform: uppercase;
+    font-size: 30px; */
+}
+.kits{
+    display: none;
+    position: relative;
+    top: 5px;
+    left: 60%;
+    transform: translateX(-50%);
+    background:url('../rec/logo2.jpg');
+    min-height: 50px;
+    max-width: 250px;
+    background-size: cover;
+    background-position: center;
+    /* position: absolute;
+    right: 0;
+    float: right; 
+    font-size: 18px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  */
+}
+
+/* .kits>span{
+    color: #07252d;
+    font-family: serif;
+    font-size: 22px;
+    font-family: 900;
+    text-transform: uppercase;
+} */
